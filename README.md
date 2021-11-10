@@ -1,5 +1,12 @@
 # What is the purpose of this notebook and project?
-As an application of the use of the pandas library, the notebook basically shows some data manipulation and cleaning of an open dataset. Mostly as a time timestamp, feel free to remember some feel key tools of the  [```pandas```](https://github.com/pandas-dev/pandas) library.
+As an application of the use of the pandas library, the notebook basically shows some data manipulation and cleaning of an open dataset using [```pandas```](https://github.com/pandas-dev/pandas). There is also a ```.py``` script as a reference for validating the code on the **PEP8** good practices of programming. To do so, you will need to have ```pylint``` and ```pandas``` installed:
+
+    $pip install pylint
+    $pip install pandas
+
+For running the PEP8 tests:
+
+    $pylint guided_project_script.py
 
 # About the dataset
 The [dataset](https://data.world/data-society/used-cars-data) stores informations of used cars from *eBay Kleinanzeigen*, a classifieds section of the German *eBay website*.
